@@ -1,0 +1,8 @@
+<h1>Pet Details</h1>
+<div *ngIf="animal">
+    <h3>Name: {{animal.name}}</h3>
+    <h4>Color: {{animal.color}}</h4>
+    <h5>Price: {{animal.price}}</h5>
+
+    <button (click)="addToCart(animal)">Buy</button>
+</div>
